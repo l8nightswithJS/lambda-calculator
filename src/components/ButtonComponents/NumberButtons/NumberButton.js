@@ -1,12 +1,14 @@
 import React from "react";
+import Numbers from "./Numbers";
 
 const NumberButton = (props) => {
+  
   return (
     
-    <button className='button-style' onClick={() => console.log(props.text)}>
+    <div className="button">
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-    {props.calcNumbers}
-    </button>
+    <Numbers />
+    </div>
   );
 };
 

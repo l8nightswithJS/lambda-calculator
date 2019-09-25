@@ -1,0 +1,38 @@
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: green;
+    font-size: 2rem;
+    color: white;
+    margin: 5px;
+}
+
+
+
+.operator-button{
+    background-color: black;
+}
+
+.display-right{
+    padding-left: 5%;
+}
+
+.row {
+    display: flex;
+    width: 65%;
+    margin: 1px;
+    padding-left: 10%; 
+}
+
+.column{
+    width: 80%;
+}
+
+.operators{
+    width: 10%;
+}
+
+.logo-container{
+    margin: 5%;
+}

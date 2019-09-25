@@ -8,6 +8,7 @@
 }
 .display {
     margin-top: 25px;
+    margin-left: 2%;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -20,3 +21,5 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  

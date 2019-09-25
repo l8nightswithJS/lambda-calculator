@@ -2,9 +2,9 @@ import React from "react";
 
 const OperatorButton = (props) => {
   return (
-    <button className='button-style button-layout'>
+    <button className='operator-button'>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-      {props.operatorBtn.value}
+      {props.operator.char}
     </button>
   );
 };
